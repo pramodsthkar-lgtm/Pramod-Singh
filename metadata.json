@@ -1,0 +1,6 @@
+{
+  "name": "Zaika Restaurant",
+  "description": "A modern and premium restaurant website for Zaika Restaurant in India. Features dark and golden design, glassmorphism, responsive layouts, and menu ordering capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

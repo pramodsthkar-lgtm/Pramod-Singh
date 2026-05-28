@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-gold: #d4af37;
+  --color-gold-hover: #b5952f;
+  --color-gold-light: #f9e596;
+  
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-glass border border-glass-border backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.3)];
+  }
+}
